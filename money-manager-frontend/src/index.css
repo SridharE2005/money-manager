@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+ background: linear-gradient(135deg,#020617,#0f172a,#020617);
+ color:white;
+ font-family: 'Inter', sans-serif;
+}
+
+/* Inputs */
+.input{
+ @apply w-full p-2 mb-3 rounded bg-slate-700 
+ text-white outline-none
+ focus:ring-2 focus:ring-blue-500
+ transition-all;
+}
+
+/* Buttons */
+.btn{
+ @apply w-full bg-blue-600 p-2 rounded 
+ hover:bg-blue-700 
+ active:scale-95
+ transition-all;
+}
+
+/* Card */
+.card{
+ @apply bg-slate-800 p-8 rounded-xl shadow-xl;
+}
+
+/* Link */
+.link{
+ @apply text-blue-400 hover:text-blue-300 cursor-pointer;
+}
+.input{
+ @apply w-full p-3 rounded-lg bg-slate-700 
+ text-white outline-none 
+ focus:ring-2 focus:ring-blue-500
+ transition-all;
+}
+
+.btn{
+ @apply w-full bg-blue-600 p-3 rounded-lg 
+ hover:bg-blue-700 
+ active:scale-95 
+ transition-all;
+}
